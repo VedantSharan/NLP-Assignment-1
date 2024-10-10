@@ -51,33 +51,36 @@ The list of bad words used is stored in kannada_bad_words.txt and the script use
 
 
 
+# Data Overview
+
 | Sources                           | Number of Articles | Volume (GBs) |
 |-----------------------------------|--------------------|--------------|
-| www.prajavani.net                 | 51,608             | 0.36         |
+| www.prajavani.net               | 51,608             | 0.36         |
 | zeenews.india.com/kannada        | 3,046              | 0.023        |
 | www.kannadaprabha.com             | 28,515             | 0.154        |
 | kannada.oneindia.com              | 542,199            | 3.935        |
 | www.justkannada.in                | 82,237             | 0.464        |
-| https://vishwavani.news           | 33,489             | 0.274        |
+| vishwavani.news        | 33,489             | 0.274        |
 | eesanje.com                       | 11,044             | 0.069        |
-| www.sanjevani.com                 | 24,140             | 0.138        |
-| kannada.asianetnews.com           | 85,691             | 0.69         |
-| Wikipedia                         | 45,134             | 0.5          |
-| Panju Magazine                     | 8,502              | 0.17         |
-| Kenda Sampige                     | 912                | 0.005        |
-| Public TV                        | 1,200,000          | 5.6          |
-| Vijayavani                        | 84,352             | 0.67         |
+| www.sanjevani.com                | 24,140             | 0.138        |
+| kannada.asianetnews.com         | 85,691             | 0.69         |
+| Wikipedia                   | 45,134             | 0.5          |
+| Panju Magazine               | 8,472              | 0.162        |
+| Kenda Sampige                 | 912                | 0.005        |
+| Public TV                         | 1,200,000          | 5.6          |
+| Vijayavani                    | 84,352             | 0.67         |
 | BK Murli                         | 2,700              | 0.009        |
 | Kannada Sahitya                   | 780                | 0.003        |
-| Varta Bharati                    | 43,432             | 0.18         |
-| Sumanasa                         | 50,434             | 0.49         |
-| Udayavani                        | 52,013             | 0.64         |
-| **Total Scraped**                | **2,350,228**      | **14.374**   |
+| Varta Bharati             | 43,432             | 0.18         |
+| Sumanasa                      | 49,434             | 0.48         |
+| Udayavani                      | 52,013             | 0.64         |
+| **Total Scraped**                 | **2,349,198**        | **14.356**    |
 | ai4 sangraha                      | 3,297,146          | 18.2         |
-| CulturaX                         | 1                  | 9.25         |
+| CulturaX                          | 1                  | 9.25         |
 | MC4                               | 1                  | 6.96         |
 | Samanantar                        | 1                  | 0.57         |
-| **Total**                         | **5,647,377**      | **49.354**   |
+| **Total**                         | **5,646,347**        | **49.336**    |
+
 
 
 ### Deduplication Statistics
@@ -111,6 +114,14 @@ After cleaning, we applied deduplication techniques to ensure no duplicate artic
 | MC4                               | 1                  | 6.96         |
 | Samanantar                        | 1                  | 0.57         |
 | **Total**                        | **4,288,929**      | **41.546**   |
+
+#### Techniques used
+The following techniques were used for deduplication using the scripts in the repo.
+- Simhashing
+- Doc2Vec
+- Jaccard Similarity on Shingles
+- Levenshtein Distance
+- TF-IDF with Cosine Similarity
 
 # Individual Contributions
 
