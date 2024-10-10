@@ -112,5 +112,34 @@ After cleaning, we applied deduplication techniques to ensure no duplicate artic
 | Samanantar                        | 1                  | 0.57         |
 | **Total**                        | **4,288,929**      | **41.546**   |
 
-### Contribution:
-Surriya Gokul - Data Crawling, Deduplication and Cleaning Code, Deduplication Novel Methods
+# Individual Contributions
+
+## Vedant's Contributions
+
+- **Data Curation**: Collected data from various Kannada news sources:
+  - [www.prajavani.net](https://www.prajavani.net)
+  - [zeenews.india.com/kannada](https://zeenews.india.com/kannada) 
+  - [www.kannadaprabha.com](https://www.kannadaprabha.com)
+  - [kannada.oneindia.com](https://kannada.oneindia.com)
+  - [www.justkannada.in](https://www.justkannada.in)
+  - [https://vishwavani.news](https://vishwavani.news)
+  - [eesanje.com](https://eesanje.com) 
+  - [www.sanjevani.com](https://www.sanjevani.com) 
+  - [kannada.asianetnews.com](https://kannada.asianetnews.com) 
+- **Bad Words Dictionary**: Curated and compiled a list of bad words for the Kannada language.
+
+## Surriya's Contributions
+
+- **Data Collection**: Collected data from  sources:
+  - [Wikipedia](https://www.wikipedia.org)
+  - [Panju Magazine](https://panjumagazine.com)
+  - [Kenda Sampige](https://kendasampige.com) 
+  - [Public TV](https://publictv.in)
+  - [Vijayavani](https://www.vijayavani.net)
+  - [BK Murli](https://bk-murli.com) 
+  - [Kannada Sahitya](https://kannadasahitya.com) 
+  - [Varta Bharati](https://vartabharati.com) 
+  - [Sumanasa](https://sumanasa.com) 
+  - [Udayavani](https://udayavani.com)
+- **Deduplication**: Implemented deduplication techniques to remove duplicate articles from the dataset.
+
