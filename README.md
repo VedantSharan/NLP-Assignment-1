@@ -112,3 +112,5 @@ After cleaning, we applied deduplication techniques to ensure no duplicate artic
 | Samanantar                        | 1                  | 0.57         |
 | **Total**                        | **4,288,929**      | **41.546**   |
 
+### Contribution:
+Surriya Gokul - Data Crawling, Deduplication and Cleaning Code, Deduplication Novel Methods
